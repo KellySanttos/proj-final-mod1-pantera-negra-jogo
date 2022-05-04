@@ -1,0 +1,60 @@
+body {
+    padding: 10px;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: rgb(32, 30, 30)
+}
+
+img {
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+}
+
+li, a {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+li:hover {
+    overflow: hidden;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links, li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: rgb(14, 18, 238);
+}
+
+.trailer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px;
+}
+
+.pantera {
+    height: 50%;
+    width: 45%;
+}
